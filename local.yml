@@ -9,6 +9,7 @@
   - name: Programmatūras pārbaude
     copy: 
       paths: /tmp/test
-      recurese: yes
+      patterns: '*'
+      recurse: yes
 
  
