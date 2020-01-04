@@ -3,7 +3,7 @@
   tasks:
   - name: Programmatūras uzstādīšana
     copy: 
-      src: test 
+      src: tests 
       dest: /tmp/
       backup: yes
   - name: Programmatūras pārbaude
