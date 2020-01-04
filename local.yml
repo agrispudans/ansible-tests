@@ -1,0 +1,9 @@
+---
+- hosts: local
+  tasks:
+  - name: Programmatūras uzstādīšana
+    copy: 
+      src: test 
+      dest: /tmp/
+      owner: agris
+      group: agris
