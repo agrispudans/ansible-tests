@@ -8,7 +8,7 @@
       backup: yes
   - name: Programmatūras pārbaude
     copy: 
-      paths: /tmp/test
+      paths: /tmp/tests
       patterns: '*'
       recurse: yes
 
