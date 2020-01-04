@@ -3,7 +3,13 @@
   tasks:
   - name: Programmatūras uzstādīšana
     copy: 
+      remote_src: no
       src: test 
       dest: /tmp/
-      owner: agris
-      group: agris
+      backup: yes
+  - name: Programmatūras pārbaude
+    copy: 
+      paths: /tmp/test
+      recurese: yes
+
+ 
