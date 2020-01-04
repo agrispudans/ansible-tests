@@ -3,7 +3,6 @@
   tasks:
   - name: Programmatūras uzstādīšana
     copy: 
-      remote_src: no
       src: test 
       dest: /tmp/
       backup: yes
