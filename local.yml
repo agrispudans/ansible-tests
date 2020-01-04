@@ -7,10 +7,4 @@
       src: tests 
       dest: /tmp/
       backup: yes
-  - name: Programmatūras pārbaude
-    find: 
-      paths: /tmp/tests
-      patterns: '*'
-      recurse: yes
 
- 
